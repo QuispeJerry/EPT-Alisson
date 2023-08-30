@@ -1,0 +1,65 @@
+.all{
+    width: 80%;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo_t{
+    width: 50rem;
+    height: auto;
+    justify-items: center;
+}
+
+.logo_t img{
+}
+
+.resenia{
+    
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    /* background-color: blue; */
+}
+
+.bloque_derecha p{
+    /* background-color: purple; */
+    text-align: justify;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 14px;
+    line-height: 2;
+}
+.bloque_izquierda p{
+    /* background-color: purple; */
+    text-align: justify;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.resenia img{
+    width: 25rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bloque_derecha{
+    display: grid;
+    grid-template-columns: 1.2fr 1.5fr;
+    justify-content: center;
+}
+.bloque_izquierda{
+    display: grid;
+    grid-template-columns: 1.5fr 1.2fr;
+    justify-content: center;
+}

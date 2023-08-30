@@ -1,0 +1,21 @@
+<!-- <div class="contend">
+    <div class="titulo">
+        {{titulo}}
+    </div>
+    <img src="{{imagen}}" alt="" class="imagen">
+    <div class="descripcion">
+        {{descripcion}}
+    </div>
+</div> -->
+
+<div class="all" *ngFor="let lugar of lugares; let i = index">
+    <div  class="contend" *ngIf="lugarGuardadoJSON==i">
+        <div class="titulo">
+            {{lugar.titulo}}
+        </div>
+        <img src="{{lugar.imagen}}" alt="" class="imagen">
+        <div class="descripcion">
+            {{lugar.descripcion}}
+        </div>
+    </div>
+</div>

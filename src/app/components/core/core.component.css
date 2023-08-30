@@ -1,0 +1,64 @@
+.lugares {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .lugar {
+    width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+  
+  .titulo_lugar {
+    padding: 16px;
+    cursor: pointer;
+  }
+  
+  .foto img {
+    cursor: pointer;
+    width: 20rem;
+    height: auto;
+    display: block;
+  }
+  
+  .reacciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #f5f5f5;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .reacciones:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+  .icon:hover{
+    color: blue;
+  }
+  

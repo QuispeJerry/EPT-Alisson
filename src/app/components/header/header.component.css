@@ -1,0 +1,27 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .logo{
+    height: 5rem;
+    width: auto;
+    margin-right: 5%;
+    margin-left: 1rem;
+  }
+
+  .toolbar{
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .no-pointer {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+  }
+
+  .no-pointer:hover{
+    color:black;
+    font-size: 2rem;
+  }

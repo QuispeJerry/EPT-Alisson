@@ -1,0 +1,41 @@
+.contend{
+    width: 60%;
+    height: auto;
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 1px solid #ccc; /* Añade un borde para que la sombra sea visible */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356); /* Sombra en los bordes */
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #3f51b5;
+    margin-bottom: 1rem;
+}
+
+.imagen{
+    width: 40rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.descripcion{
+    width: 75%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+    column-count: 2; /* Divide el contenido en dos columnas */
+    column-gap: 25px; /* Espacio entre las columnas */
+    margin-left: auto;
+    margin-right: auto;
+}

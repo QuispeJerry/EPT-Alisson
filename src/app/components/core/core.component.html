@@ -1,0 +1,16 @@
+<div class="lugares" >
+  <div class="lugar" *ngFor="let item of lugares; let i=index">
+    <div class="titulo_lugar" (click)="mostrar(i)">
+      <p>{{item.titulo}} {{i}}</p>
+    </div>
+    <div class="foto" (click)="mostrar(i)">
+      <img src="{{item.imagen}}" alt="" />
+    </div>
+    <div class="reacciones">
+      <mat-card-content class="card-content">
+        <mat-icon class="icon">thumb_up</mat-icon>
+        <mat-icon class="icon">share</mat-icon>
+      </mat-card-content>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,51 @@
+.all{
+    width: 80%;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+.resenia{
+    
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+.bloque_izquierda p{
+    /* background-color: purple; */
+    text-align: justify;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.resenia img{
+    width: 10rem;
+    margin-bottom: auto;
+    border-radius: 80%;
+}
+
+.bloque_izquierda{
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    justify-content: center;
+}
+
+.titulo_nosotros{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: sans-serif;
+}
